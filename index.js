@@ -126,36 +126,38 @@
 
 // 2. তিনটি সংখ্যার মধ্যে বড়ো সংখ্যাটি বের কর 
 // for own practice=>তিনটি সংখ্যার মধ্যে ছোট  সংখ্যাটি বের কর
-// var number1 = 1000;
-// var number2 = 6000;
-// var number3 = 7000;
+var number1 = 1000;
+var number2 = 6000;
+var number3 = 7000;
 
-// if(number1 > number2){
-//     if(number1 > number3){
-//         console.log("Number1 is big");
-//     }
-// }
-// else if(number2 > number3){
-//     if(number2 > number1){
-//         console.log("Number2 is big");
-//     }
-// }
-// console.log("Number3 is big");
+if(number1 > number2){
+    if(number1 > number3){
+        console.log("Number1 is big");
+    }
+}
+else if(number2 > number3){
+    if(number2 > number1){
+        console.log("Number2 is big");
+    }
+}
+else{
+    console.log("Number3 is big");
+}
 
 // 3. ১ - ১০০ এর মধ্যে জোড় সংখ্যাটি বের করার প্রোগ্রাম লিখো 
 // for own practice=>১ - ১০০ এর মধ্যে বিজোড় সংখ্যাটি বের করার প্রোগ্রাম লিখো 
-for(var i = 1; i <= 100; i++){
-    if(i % 2 == 0){
-        console.log(i);
-    }
-}
+// for(var i = 1; i <= 100; i++){
+//     if(i % 2 == 0){
+//         console.log(i);
+//     }
+// }
 
 
 
 // 5. একটা লুপ এর সাহায্যে ৭ ঘরের নামতা লিখো 
-var number = 5;
-for(var i = 1; i <= 10; i++){
-    var result = i * number;
-    var multiplicationTable = number + " * " + i + " = " + result;
-    console.log(multiplicationTable);
-}
+// var number = 5;
+// for(var i = 1; i <= 10; i++){
+//     var result = i * number;
+//     var multiplicationTable = number + " * " + i + " = " + result;
+//     console.log(multiplicationTable);
+// }
